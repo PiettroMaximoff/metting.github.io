@@ -1,0 +1,128 @@
+.collaboration
+    padding: 120px 0 70px
+    @media (max-width: $md2)
+        padding: 59px 0 25px
+
+    &__container
+        max-width: 1220px
+        @media (max-width: $md2)
+            padding: 0
+
+    &__top
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding-right: 80px
+        @media (max-width: $md2)
+            flex-direction: column
+            align-items: center
+            padding-right: 20px
+            padding-left: 22px
+
+    &__title
+        display: flex
+        max-width: 494px
+        font-weight: 600
+        font-size: 36px
+        line-height: 50px
+        color: #18216D
+        @media (max-width: $md2)
+            max-width: 330px
+            margin-bottom: 22px
+        @media (max-width: $md3)
+            font-size: 20px
+            line-height: 30px
+
+    &__statistic
+
+    &__companies
+
+.statistic
+    display: flex
+    max-width: 340px
+    justify-content: space-between
+    margin-bottom: 49px
+    @media (max-width: $md2)
+        justify-content: center
+        margin-bottom: 22px
+    @media (max-width: $md3)
+
+    &__item
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        &:first-child
+            margin-right: 76px
+
+    &__title
+        font-weight: bold
+        font-size: 60px
+        line-height: 70px
+        letter-spacing: -1px
+        color: #18216D
+        margin-bottom: 10px
+        @media (max-width: $md3)
+            font-size: 32px
+            line-height: 32px
+            margin-bottom: 12px
+
+    &__row
+        display: flex
+        margin-bottom: 12px
+        @media (max-width: $md3)
+            margin-bottom: 10px
+
+    &__icon
+        position: relative
+        width: 16px
+        height: 14px
+        margin-right: 5px
+        &:last-child
+            margin-right: 0
+        img
+            position: absolute
+            width: 100%
+            height: 100%
+            left: 0
+            object-fit: contain
+        @media (max-width: $md3)
+            width: 8.5px
+            height: 10px
+            margin-right: 2.6px
+
+    &__subtitle
+        font-size: 16px
+        line-height: 28px
+        color: #18216D
+        @media (max-width: $md3)
+            font-size: 8px
+            line-height: 8px
+
+.companies
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-left: 30px
+    padding-right: 50px
+    @media (max-width: $md3)
+        padding-left: 22px
+        padding-right: 24px
+
+    &__item
+        height: 35px
+        margin: 0 5px
+        @media (max-width: $md3)
+            display: flex
+            flex: 0 0 18%
+            height: 16px
+            position: relative
+            img
+                position: absolute
+                width: 100%
+                height: 100%
+                object-fit: fill
+
+    .item
+        @media (max-width: $md2)
+            display: none
