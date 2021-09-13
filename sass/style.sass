@@ -10,6 +10,8 @@ $md4: 479.98px
 body
     font-family: 'Inter', sans-serif
     color: #18216d
+    &._lock // Страница не скроллица при открытии меню
+        overflow: hidden
 
 @mixin anime($a, $b)
     transition: all $a ease $b

@@ -7,6 +7,9 @@ body {
   font-family: "Inter", sans-serif;
   color: #18216d;
 }
+body._lock {
+  overflow: hidden;
+}
 
 .wrapper {
   width: 100%;
